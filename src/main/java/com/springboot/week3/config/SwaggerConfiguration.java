@@ -1,4 +1,4 @@
-package com.springboot.studyapi.config;
+package com.springboot.week3.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class SwaggerConfig {
+public class SwaggerConfiguration {
 
     private final String AUTH_TOKEN_HEADER = "Authorization";
 
